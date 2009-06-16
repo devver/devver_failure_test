@@ -1,14 +1,6 @@
-# foobar changed 7
 require 'test/unit'
-require File.dirname(__FILE__)+'/adder'
+require File.dirname(__FILE__)+'/../adder'
 require 'ruby-debug'
-#require 'thin'
-####
-# $:.unshift File.join(File.dirname(__FILE__), "..")
-#require 'lib/testrunnermediator'
-#require 'lib/testcase'
-#require 'lib/testresult'
-#require 'lib/continuations'
 
 class AdderTest < Test::Unit::TestCase
   include Math
